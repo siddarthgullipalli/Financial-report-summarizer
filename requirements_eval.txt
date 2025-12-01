@@ -1,0 +1,20 @@
+# RAG Evaluation Metrics Dependencies
+# =====================================
+# Install with: pip install -r requirements_eval.txt
+
+# Core evaluation metrics
+nltk>=3.8.1                    # For BLEU score
+rouge-score>=0.1.2             # For ROUGE metrics
+bert-score>=0.3.13             # For BERTScore (semantic similarity)
+
+# Scientific computing
+numpy>=1.24.3
+scipy>=1.10.1
+
+# Optional: Advanced NLI-based faithfulness metrics
+# transformers>=4.35.0
+# torch>=2.0.0
+
+# For visualization (optional)
+matplotlib>=3.7.1
+seaborn>=0.12.2
